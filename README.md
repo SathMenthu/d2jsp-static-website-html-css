@@ -1,4 +1,4 @@
 # Static website - copy of https://www.d2jsp.org/
 ###### The project was created in order to learn, and more specifically to train html / css
-###### Is a static page with pure html + css without javascript.
+###### Is a static page with pure html + css, without javascript.
 ![image](https://user-images.githubusercontent.com/33133742/175778365-dd6a1d45-ea3e-4880-9e4c-c0a703ef0d2a.png)
