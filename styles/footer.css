@@ -1,0 +1,10 @@
+.footer-link {
+  border-left: 1px dotted #484848;
+  padding: 0 5px;
+  color: #d5d5d5;
+  cursor: pointer;
+}
+
+.footer-text {
+  margin-right: 5px;
+}

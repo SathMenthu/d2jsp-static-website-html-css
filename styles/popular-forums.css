@@ -1,0 +1,54 @@
+.popular-forums-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  column-gap: 4px;
+}
+
+.popular-forums-grid > div {
+  display: grid;
+  grid-template-columns: 34% 30% 18% 18%;
+}
+
+.popular-forums-grid > div > a {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 3px 6px;
+  border: 1px solid #484848;
+  border-right: 0px;
+  margin-bottom: 3px;
+  padding-right: 10px;
+}
+
+.popular-forums-grid > div :nth-child(1) {
+  background: #1e1e1e;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.popular-forums-grid > div :nth-child(2) {
+  background: #262626;
+  color: #bfbfbf;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.popular-forums-grid > div :nth-child(2):hover {
+  text-decoration: underline;
+}
+
+.popular-forums-grid > div :nth-child(3) {
+  background: #262626;
+  color: #d5d5d5;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.popular-forums-grid > div :nth-child(4) {
+  background: #262626;
+  color: #8f8f8f;
+  font-size: 10px;
+}

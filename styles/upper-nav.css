@@ -1,0 +1,51 @@
+.upper-nav {
+  background-color: #484848;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid #a2a2a2;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  margin-block-start: 0.6em;
+  margin-block-end: 0.9em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.icon {
+  height: 120%;
+  position: absolute;
+  left: -15px;
+  top: 1px;
+}
+
+.title {
+  font-size: 20px;
+  text-decoration: none;
+  color: #d5d5d5;
+  text-shadow: 1px 1px #0a0a0a;
+  padding-left: 7px;
+  padding-top: 2px;
+}
+
+.link {
+  position: relative;
+  display: flex;
+  height: 11px;
+  margin-right: 23px;
+}
+
+.link p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+li + :last-child {
+  margin-right: 6px;
+}

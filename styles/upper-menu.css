@@ -1,0 +1,34 @@
+.upper-menu {
+  background-color: #262626;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.upper-menu ul {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  list-style: none;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.4em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 4px;
+  font-size: 11px;
+}
+
+.upper-menu ul li {
+  position: relative;
+}
+
+.upper-menu ul li img {
+  position: absolute;
+  top: 0px;
+  right: -15px;
+}
+
+.upper-menu ul li {
+  margin-right: 18px;
+}

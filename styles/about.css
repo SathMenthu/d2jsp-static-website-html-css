@@ -1,0 +1,39 @@
+.about {
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 35%);
+  background: #262626;
+  border: 1px solid #484848;
+  margin: 10px 30%;
+}
+
+.about-header {
+  text-align: center;
+  padding: 3px;
+  font-weight: bold;
+  border: 1px solid #484848;
+}
+
+.about-desc {
+  position: relative;
+  background: #1e1e1e;
+  border-top: 1px solid #484848;
+  padding: 9px;
+}
+
+.donate {
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  border: 1px outset #484848;
+  background: #484848;
+  color: #d5d5d5;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  margin: 1px 0;
+  padding: 1px 6px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 0;
+  font-size: 11px;
+}
